@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+/* @import url('http://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap'); */
 
 *
 {
@@ -8,6 +8,11 @@
     font-family: 'Poppins',sans-serif;
 }
 
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url("http://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap")
+        
+  }
 section
 {
     display: flex;
